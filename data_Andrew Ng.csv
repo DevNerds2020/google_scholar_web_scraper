@@ -1,0 +1,60 @@
+name,university,interests,articleTitle,citedBy,publicationYear
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Latent dirichlet allocation
+DM Blei, AY Ng, MI Jordan
+Journal of machine Learning research 3 (Jan), 993-1022",46782,2003
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"On spectral clustering: Analysis and an algorithm
+A Ng, M Jordan, Y Weiss
+Advances in neural information processing systems 14",11462,2001
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"ROS: an open-source Robot Operating System
+M Quigley, K Conley, B Gerkey, J Faust, T Foote, J Leibs, R Wheeler, ...
+ICRA workshop on open source software 3 (3.2), 5",11021,2009
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Rectifier nonlinearities improve neural network acoustic models
+AL Maas, AY Hannun, AY Ng
+Proc. icml 30 (1), 3",7635,2013
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Recursive deep models for semantic compositionality over a sentiment treebank
+R Socher, A Perelygin, J Wu, J Chuang, CD Manning, AY Ng, C Potts
+Proceedings of the 2013 conference on empirical methods in natural language …",7304,2013
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Reading digits in natural images with unsupervised feature learning
+Y Netzer, T Wang, A Coates, A Bissacco, B Wu, AY Ng",4613,2011
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Learning word vectors for sentiment analysis
+A Maas, RE Daly, PT Pham, D Huang, AY Ng, C Potts
+Proceedings of the 49th annual meeting of the association for computational …",4488,2011
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Large scale distributed deep networks
+J Dean, G Corrado, R Monga, K Chen, M Devin, M Mao, M Ranzato, ...
+Advances in neural information processing systems 25",4221,2012
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Distance metric learning with application to clustering with side-information
+E Xing, M Jordan, SJ Russell, A Ng
+Advances in neural information processing systems 15",3862,2002
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"An analysis of single-layer networks in unsupervised feature learning
+A Coates, A Ng, H Lee
+Proceedings of the fourteenth international conference on artificial …",3676,2011
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Apprenticeship learning via inverse reinforcement learning
+P Abbeel, AY Ng
+Proceedings of the twenty-first international conference on Machine learning, 1",3531,2004
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Multimodal deep learning
+J Ngiam, A Khosla, M Kim, J Nam, H Lee, AY Ng
+Proceedings of the 28th international conference on machine learning (ICML …",3492,2011
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Efficient sparse coding algorithms
+H Lee, A Battle, R Raina, A Ng
+Advances in neural information processing systems 19",3373,2006
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes
+A Ng, M Jordan
+Advances in neural information processing systems 14",3347,2001
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Algorithms for inverse reinforcement learning.
+AY Ng, S Russell
+Icml 1, 2",3319,2000
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations
+H Lee, R Grosse, R Ranganath, AY Ng
+Proceedings of the 26th annual international conference on machine learning …",3303,2009
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Deep speech 2: End-to-end speech recognition in english and mandarin
+D Amodei, S Ananthanarayanan, R Anubhai, J Bai, E Battenberg, C Case, ...
+International conference on machine learning, 173-182",3144,2016
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Building high-level features using large scale unsupervised learning
+QV Le
+2013 IEEE international conference on acoustics, speech and signal …",2879,2013
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Cheap and fast–but is it good? evaluating non-expert annotations for natural language tasks
+R Snow, B O’connor, D Jurafsky, AY Ng
+Proceedings of the 2008 conference on empirical methods in natural language …",2549,2008
+Andrew Ng,Stanford University,Machine LearningDeep LearningAI,"Feature selection, L1 vs. L2 regularization, and rotational invariance
+AY Ng
+Proceedings of the twenty-first international conference on Machine learning, 78",2358,2004

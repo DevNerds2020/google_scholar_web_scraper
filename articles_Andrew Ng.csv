@@ -1,0 +1,264 @@
+authors,publicationDate,journal,volume,issue,pages,description
+"David M Blei, Andrew Y Ng, Michael I Jordan",2003,Journal of machine Learning research,3,Jan,993-1022,"We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model."
+"Andrew Ng, Michael Jordan, Yair Weiss",2001,Advances in neural information processing systems,14,"Despite many empirical successes of spectral clustering methods (cid: 173) algorithms that cluster points using eigenvectors of matrices de (cid: 173) rived from the data-there are several unresolved issues. First, there are a wide variety of algorithms that use the eigenvectors in slightly different ways. Second, many of these algorithms have no proof that they will actually compute a reasonable clustering. In this paper, we present a simple spectral clustering algorithm that can be implemented using a few lines of Matlab. Using tools from matrix perturbation theory, we analyze the algorithm, and give conditions under which it can be expected to do well. We also show surprisingly good experimental results on a number of challenging clustering problems.","Zitiert von: 11462
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","On spectral clustering: Analysis and an algorithm
+A Ng, M Jordan, Y Weiss - Advances in neural information processing systems, 2001
+Zitiert von: 11462 Ähnliche Artikel Alle 17 Versionen"
+"Morgan Quigley, Ken Conley, Brian Gerkey, Josh Faust, Tully Foote, Jeremy Leibs, Rob Wheeler, Andrew Y Ng",2009/5/12,ICRA workshop on open source software,3,3.2,5,"This paper gives an overview of ROS, an opensource robot operating system. ROS is not an operating system in the traditional sense of process management and scheduling; rather, it provides a structured communications layer above the host operating systems of a heterogenous compute cluster. In this paper, we discuss how ROS relates to existing robot software frameworks, and briefly overview some of the available application software which uses ROS."
+"Andrew L Maas, Awni Y Hannun, Andrew Y Ng",2013/6/16,Proc. icml,30,1,3,"Deep neural network acoustic models produce substantial gains in large vocabulary continuous speech recognition systems. Emerging work with rectified linear (ReL) hidden units demonstrates additional gains in final system performance relative to more commonly used sigmoidal nonlinearities. In this work, we explore the use of deep rectifier networks as acoustic models for the 300 hour Switchboard conversational speech recognition task. Using simple training procedures without pretraining, networks with rectifier nonlinearities produce 2% absolute reductions in word error rates over their sigmoidal counterparts. We analyze hidden layer representations to quantify differences in how ReL units encode inputs as compared to sigmoidal units. Finally, we evaluate a variant of the ReL unit with a gradient more amenable to optimization in an attempt to further improve deep rectifier networks."
+"Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D Manning, Andrew Y Ng, Christopher Potts",2013/10,Proceedings of the 2013 conference on empirical methods in natural language processing,1631-1642,"Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way. Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition. To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality. To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases.","Zitiert von: 7304
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Recursive deep models for semantic compositionality over a sentiment treebank
+R Socher, A Perelygin, J Wu, J Chuang, CD Manning… - Proceedings of the 2013 conference on empirical …, 2013
+Zitiert von: 7304 Ähnliche Artikel Alle 20 Versionen"
+"Andrew Maas, Raymond E Daly, Peter T Pham, Dan Huang, Andrew Y Ng, Christopher Potts",2011/6,Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies,142-150,"Unsupervised vector-based approaches to semantics can model rich lexical meanings, but they largely fail to capture sentiment information that is central to many word meanings and important for a wide range of NLP tasks. We present a model that uses a mix of unsupervised and supervised techniques to learn word vectors capturing semantic term–document information as well as rich sentiment content. The proposed model can leverage both continuous and multi-dimensional sentiment information as well as non-sentiment annotations. We instantiate the model to utilize the document-level sentiment polarity annotations present in many online documents (eg star ratings). We evaluate the model using small, widely used sentiment and subjectivity corpora and find it out-performs several previously introduced methods for sentiment classification. We also introduce a large dataset of movie reviews to serve as a more robust benchmark for work in this area.","Zitiert von: 4488
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Learning word vectors for sentiment analysis
+A Maas, RE Daly, PT Pham, D Huang, AY Ng, C Potts - Proceedings of the 49th annual meeting of the …, 2011
+Zitiert von: 4488 Ähnliche Artikel Alle 18 Versionen"
+"Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao, Marc'aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, Quoc Le, Andrew Ng",2012,Advances in neural information processing systems,25,"Recent work in unsupervised feature learning and deep learning has shown that being able to train large models can dramatically improve performance. In this paper, we consider the problem of training a deep network with billions of parameters using tens of thousands of CPU cores. We have developed a software framework called DistBelief that can utilize computing clusters with thousands of machines to train large models. Within this framework, we have developed two algorithms for large-scale distributed training:(i) Downpour SGD, an asynchronous stochastic gradient descent procedure supporting a large number of model replicas, and (ii) Sandblaster, a framework that supports for a variety of distributed batch optimization procedures, including a distributed implementation of L-BFGS. Downpour SGD and Sandblaster L-BFGS both increase the scale and speed of deep network training. We have successfully used our system to train a deep network 100x larger than previously reported in the literature, and achieves state-of-the-art performance on ImageNet, a visual object recognition task with 16 million images and 21k categories. We show that these same techniques dramatically accelerate the training of a more modestly sized deep network for a commercial speech recognition service. Although we focus on and report performance of these methods as applied to training large neural networks, the underlying algorithms are applicable to any gradient-based machine learning algorithm.","Zitiert von: 4221
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Large scale distributed deep networks
+J Dean, G Corrado, R Monga, K Chen, M Devin, M Mao… - Advances in neural information processing systems, 2012
+Zitiert von: 4221 Ähnliche Artikel Alle 27 Versionen"
+"Eric Xing, Michael Jordan, Stuart J Russell, Andrew Ng",2002,Advances in neural information processing systems,15,"Many algorithms rely critically on being given a good metric over their inputs. For instance, data can often be clustered in many “plausible” ways, and if a clustering algorithm such as K-means initially fails to find one that is meaningful to a user, the only recourse may be for the user to manually tweak the metric until sufficiently good clusters are found. For these and other applications requiring good metrics, it is desirable that we provide a more systematic way for users to indicate what they consider “similar.” For instance, we may ask them to provide examples. In this paper, we present an algorithm that, given examples of similar (and, if desired, dissimilar) pairs of points in вдг, learns a distance metric over вег that respects these relationships. Our method is based on posing metric learning as a convex optimization problem, which allows us to give efficient, local-optima-free algorithms. We also demonstrate empirically that the learned metrics can be used to significantly improve clustering performance.","Zitiert von: 3862
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Distance metric learning with application to clustering with side-information
+E Xing, M Jordan, SJ Russell, A Ng - Advances in neural information processing systems, 2002
+Zitiert von: 3862 Ähnliche Artikel Alle 32 Versionen"
+"Adam Coates, Andrew Ng, Honglak Lee",2011/6/14,Proceedings of the fourteenth international conference on artificial intelligence and statistics,215-223,JMLR Workshop and Conference Proceedings,"A great deal of research has focused on algorithms for learning features from unlabeled data. Indeed, much progress has been made on benchmark datasets like NORB and CIFAR-10 by employing increasingly complex unsupervised learning algorithms and deep models. In this paper, however, we show that several simple factors, such as the number of hidden nodes in the model, may be more important to achieving high performance than the learning algorithm or the depth of the model. Specifically, we will apply several off-the-shelf feature learning algorithms (sparse auto-encoders, sparse RBMs, K-means clustering, and Gaussian mixtures) to CIFAR-10, NORB, and STL datasets using only single-layer networks. We then present a detailed analysis of the effect of changes in the model setup: the receptive field size, number of hidden nodes (features), the step-size (“stride”) between extracted features, and the effect of whitening. Our results show that large numbers of hidden nodes and dense feature extraction are critical to achieving high performance-so critical, in fact, that when these parameters are pushed to their limits, we achieve state-of-the-art performance on both CIFAR-10 and NORB using only a single layer of features. More surprisingly, our best performance is based on K-means clustering, which is extremely fast, has no hyper-parameters to tune beyond the model structure itself, and is very easy to implement. Despite the simplicity of our system, we achieve accuracy beyond all previously published results on the CIFAR-10 and NORB datasets (79.6% and 97.2% respectively).","Zitiert von: 3676
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023"
+"Pieter Abbeel, Andrew Y Ng",2004/7/4,Proceedings of the twenty-first international conference on Machine learning,1,"We consider learning in a Markov decision process where we are not explicitly given a reward function, but where instead we can observe an expert demonstrating the task that we want to learn to perform. This setting is useful in applications (such as the task of driving) where it may be difficult to write down an explicit reward function specifying exactly how different desiderata should be traded off. We think of the expert as trying to maximize a reward function that is expressible as a linear combination of known features, and give an algorithm for learning the task demonstrated by the expert. Our algorithm is based on using ""inverse reinforcement learning"" to try to recover the unknown reward function. We show that our algorithm terminates in a small number of iterations, and that even though we may never recover the expert's reward function, the policy output by the algorithm will attain performance close to that of the …","Zitiert von: 3531
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Apprenticeship learning via inverse reinforcement learning
+P Abbeel, AY Ng - Proceedings of the twenty-first international conference …, 2004
+Zitiert von: 3531 Ähnliche Artikel Alle 30 Versionen"
+"Jiquan Ngiam, Aditya Khosla, Mingyu Kim, Juhan Nam, Honglak Lee, Andrew Y Ng",2011,Proceedings of the 28th international conference on machine learning (ICML-11),689-696,"Deep networks have been successfully applied to unsupervised feature learning for single modalities (eg, text, images or audio). In this work, we propose a novel application of deep networks to learn features over multiple modalities. We present a series of tasks for multimodal learning and show how to train deep networks that learn features to address these tasks. In particular, we demonstrate cross modality feature learning, where better features for one modality (eg, video) can be learned if multiple modalities (eg, audio and video) are present at feature learning time. Furthermore, we show how to learn a shared representation between modalities and evaluate it on a unique task, where the classifier is trained with audio-only data but tested with video-only data and vice-versa. Our models are validated on the CUAVE and AVLetters datasets on audio-visual speech classification, demonstrating best published visual speech classification on AVLetters and effective shared representation learning.","Zitiert von: 3492
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Multimodal deep learning
+J Ngiam, A Khosla, M Kim, J Nam, H Lee, AY Ng - Proceedings of the 28th international conference on …, 2011
+Zitiert von: 3492 Ähnliche Artikel Alle 29 Versionen"
+"Honglak Lee, Alexis Battle, Rajat Raina, Andrew Ng",2006,Advances in neural information processing systems,19,"Sparse coding provides a class of algorithms for finding succinct representations of stimuli; given only unlabeled input data, it discovers basis functions that capture higher-level features in the data. However, finding sparse codes remains a very difficult computational problem. In this paper, we present efficient sparse coding algorithms that are based on iteratively solving two convex optimization problems: an L1-regularized least squares problem and an L2-constrained least squares problem. We propose novel algorithms to solve both of these optimization problems. Our algorithms result in a significant speedup for sparse coding, allowing us to learn larger sparse codes than possible with previously described algorithms. We apply these algorithms to natural images and demonstrate that the inferred sparse codes exhibit end-stopping and non-classical receptive field surround suppression and, therefore, may provide a partial explanation for these two phenomena in V1 neurons.","Zitiert von: 3373
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Efficient sparse coding algorithms
+H Lee, A Battle, R Raina, A Ng - Advances in neural information processing systems, 2006
+Zitiert von: 3373 Ähnliche Artikel Alle 25 Versionen"
+"Andrew Ng, Michael Jordan",2001,Advances in neural information processing systems,14,"We compare discriminative and generative learning as typified by logistic regression and naive Bayes. We show, contrary to a widely (cid: 173) held belief that discriminative classifiers are almost always to be preferred, that there can often be two distinct regimes of per (cid: 173) formance as the training set size is increased, one in which each algorithm does better. This stems from the observation-which is borne out in repeated experiments-that while discriminative learning has lower asymptotic error, a generative classifier may also approach its (higher) asymptotic error much faster.","Zitiert von: 3347
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes
+A Ng, M Jordan - Advances in neural information processing systems, 2001
+Zitiert von: 3347 Ähnliche Artikel Alle 19 Versionen"
+"Andrew Y Ng, Stuart Russell",2000/6/29,Icml,1,2,"This paper addresses the problem of inverse reinforcement learning (IRL) in Markov de-cision processes, that is, the problem of extracting a reward function given observed, optimal behavior. IRL may be useful for apprenticeship learning to acquire skilled behavior, and for ascertaining the reward function being optimized by a natural system. We first characterize the set of all reward func-tions for which a given policy is optimal. We then derive three algorithms for IRL. The first two deal with the case where the entire policy is known; we handle tabulated reward functions on a finite state space and linear functional approximation of the reward function over a potentially infinite state space. The third algorithm deals with the more realistic case in which the policy is known only through a finite set of observed trajectories. In all cases, a key issue is degeneracy-the existence of a large set of reward functions for which the …","Zitiert von: 3319
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023"
+"Honglak Lee, Roger Grosse, Rajesh Ranganath, Andrew Y Ng",2009/6/14,Proceedings of the 26th annual international conference on machine learning,609-616,"There has been much interest in unsupervised learning of hierarchical generative models such as deep belief networks. Scaling such models to full-sized, high-dimensional images remains a difficult problem. To address this problem, we present the convolutional deep belief network, a hierarchical generative model which scales to realistic image sizes. This model is translation-invariant and supports efficient bottom-up and top-down probabilistic inference. Key to our approach is probabilistic max-pooling, a novel technique which shrinks the representations of higher layers in a probabilistically sound way. Our experiments show that the algorithm learns useful high-level visual features, such as object parts, from unlabeled images of objects and natural scenes. We demonstrate excellent performance on several visual recognition tasks and show that our model can perform hierarchical (bottom-up and top-down …","Zitiert von: 3303
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations
+H Lee, R Grosse, R Ranganath, AY Ng - Proceedings of the 26th annual international …, 2009
+Zitiert von: 3303 Ähnliche Artikel Alle 26 Versionen"
+"Dario Amodei, Sundaram Ananthanarayanan, Rishita Anubhai, Jingliang Bai, Eric Battenberg, Carl Case, Jared Casper, Bryan Catanzaro, Qiang Cheng, Guoliang Chen, Jie Chen, Jingdong Chen, Zhijie Chen, Mike Chrzanowski, Adam Coates, Greg Diamos, Ke Ding, Niandong Du, Erich Elsen, Jesse Engel, Weiwei Fang, Linxi Fan, Christopher Fougner, Liang Gao, Caixia Gong, Awni Hannun, Tony Han, Lappi Johannes, Bing Jiang, Cai Ju, Billy Jun, Patrick LeGresley, Libby Lin, Junjie Liu, Yang Liu, Weigao Li, Xiangang Li, Dongpeng Ma, Sharan Narang, Andrew Ng, Sherjil Ozair, Yiping Peng, Ryan Prenger, Sheng Qian, Zongfeng Quan, Jonathan Raiman, Vinay Rao, Sanjeev Satheesh, David Seetapun, Shubho Sengupta, Kavya Srinet, Anuroop Sriram, Haiyuan Tang, Liliang Tang, Chong Wang, Jidong Wang, Kaifu Wang, Yi Wang, Zhijian Wang, Zhiqian Wang, Shuang Wu, Likai Wei, Bo Xiao, Wen Xie, Yan Xie, Dani Yogatama, Bin Yuan, Jun Zhan, Zhenyao Zhu",2016/6/11,International conference on machine learning,173-182,PMLR,"We show that an end-to-end deep learning approach can be used to recognize either English or Mandarin Chinese speech–two vastly different languages. Because it replaces entire pipelines of hand-engineered components with neural networks, end-to-end learning allows us to handle a diverse variety of speech including noisy environments, accents and different languages. Key to our approach is our application of HPC techniques, enabling experiments that previously took weeks to now run in days. This allows us to iterate more quickly to identify superior architectures and algorithms. As a result, in several cases, our system is competitive with the transcription of human workers when benchmarked on standard datasets. Finally, using a technique called Batch Dispatch with GPUs in the data center, we show that our system can be inexpensively deployed in an online setting, delivering low latency when serving users at scale.","Zitiert von: 3144
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023"
+Quoc V Le,2013/5/26,"2013 IEEE international conference on acoustics, speech and signal processing",8595-8598,IEEE,"We consider the problem of building high-level, class-specific feature detectors from only unlabeled data. For example, is it possible to learn a face detector using only unlabeled images? To answer this, we train a deep sparse autoencoder on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200×200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. Contrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat …","Zitiert von: 2879
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023"
+"Rion Snow, Brendan O’connor, Dan Jurafsky, Andrew Y Ng",2008/10,Proceedings of the 2008 conference on empirical methods in natural language processing,254-263,"Human linguistic annotation is crucial for many natural language processing tasks but can be expensive and time-consuming. We explore the use of Amazon’s Mechanical Turk system, a significantly cheaper and faster method for collecting annotations from a broad base of paid non-expert contributors over the Web. We investigate five tasks: affect recognition, word similarity, recognizing textual entailment, event temporal ordering, and word sense disambiguation. For all five, we show high agreement between Mechanical Turk non-expert annotations and existing gold standard labels provided by expert labelers. For the task of affect recognition, we also show that using non-expert labels for training machine learning algorithms can be as effective as using gold standard annotations from experts. We propose a technique for bias correction that significantly improves annotation quality on two tasks. We conclude that many large labeling tasks can be effectively designed and carried out in this method at a fraction of the usual expense.","Zitiert von: 2549
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Cheap and fast–but is it good? evaluating non-expert annotations for natural language tasks
+R Snow, B O'connor, D Jurafsky, AY Ng - Proceedings of the 2008 conference on empirical …, 2008
+Zitiert von: 2549 Ähnliche Artikel Alle 42 Versionen"
+Andrew Y Ng,2004/7/4,Proceedings of the twenty-first international conference on Machine learning,78,"We consider supervised learning in the presence of very many irrelevant features, and study two different regularization methods for preventing overfitting. Focusing on logistic regression, we show that using L1 regularization of the parameters, the sample complexity (i.e., the number of training examples required to learn ""well,"") grows only logarithmically in the number of irrelevant features. This logarithmic rate matches the best known bounds for feature selection, and indicates that L1 regularized logistic regression can be effective even if there are exponentially many irrelevant features as there are training examples. We also give a lower-bound showing that any rotationally invariant algorithm---including logistic regression with L2 regularization, SVMs, and neural networks trained by backpropagation---has a worst case sample complexity that grows at least linearly in the number of irrelevant features.","Zitiert von: 2358
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023","Feature selection, L 1 vs. L 2 regularization, and rotational invariance
+AY Ng - Proceedings of the twenty-first international conference …, 2004
+Zitiert von: 2358 Ähnliche Artikel Alle 20 Versionen"
